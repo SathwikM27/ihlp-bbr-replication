@@ -57,7 +57,7 @@ install_deps() {
     ZONE=$3
 
     echo "Installing required dependencies on $NAME"
-    gcloud compute ssh --project "$PROJECT" --zone "$ZONE" "$NAME" --command "cd ~/bbr-replication-1 && bash install_deps.sh"
+    gcloud compute ssh --project "$PROJECT" --zone "$ZONE" "$NAME" --command "cd ~/bbr-replication-1 && bash install_dependencies.sh"
 }
 
 link_vms() {
