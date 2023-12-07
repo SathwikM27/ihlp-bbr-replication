@@ -9,3 +9,15 @@ https://github.com/google/bbr/blob/master/Documentation/bbr-quick-start.md
 
 ## Creating VMs
 Once gcloud cli has been setup and billing account has been linked, update project id in [settings](/settings.sh)
+
+run the following command to start creating VMs
+
+```
+sudo bash init_vms.sh
+```
+
+This should create the VMs and install required dependencies, if not, manually run the install_dependencies.sh script.
+
+## SSH into VMs 
+
+ssh into the newly created VMs from you cloud console and run the experiments in root.
