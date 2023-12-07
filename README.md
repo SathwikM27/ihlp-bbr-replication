@@ -20,4 +20,4 @@ This should create the VMs and install required dependencies, if not, manually r
 
 ## SSH into VMs 
 
-ssh into the newly created VMs from you cloud console and run the experiments in root.
+ssh into the newly created VMs from you cloud console and run the experiment scripts in root.
